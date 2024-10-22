@@ -1,0 +1,33 @@
+.FavouriteModal{
+    position: absolute;
+    top: 2%;
+    width: 95%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    min-height: 80vh;
+    max-height: 90vh;
+    overflow-y: auto;
+    z-index: 100;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ModalTitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.closeBtn{
+    position: absolute;
+    top:0;
+    right: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    width: 35px;
+    aspect-ratio: 1/1;
+}

@@ -1,11 +1,11 @@
 import React from "react";
 import '../NavBar.css';
 
-export function NavBar() {
+export function NavBar({modalHandler}) {
     return (
         <nav>
             <h1><span>Quote Of</span> The Day</h1>
-            <button>Favourites</button>
+            <button onClick={modalHandler}>Favourites</button>
         </nav>
 
     )
