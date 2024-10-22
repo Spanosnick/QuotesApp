@@ -1,0 +1,39 @@
+nav{
+  padding: 0;
+  position: fixed;
+  top: 20px;
+  height: 50px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1{
+    margin-left: 20px;
+    color: #375e5e;
+    font-size: 35px;
+    font-weight: 700;
+}
+nav h1 span{
+    color: #ff9a5d;
+}
+nav button{
+background-color: #1D6E77;
+    border:none;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    padding:  5px 10px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 502px){
+    nav h1{
+        font-size: 25px;
+    }
+    nav button{
+        font-size: 20px;
+    }
+}
+
+
