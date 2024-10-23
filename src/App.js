@@ -5,7 +5,7 @@ import {FavouriteModal} from "./components/FavouriteModal";
 import {useState} from "react";
 
 function App() {
-    const [dynamicDisplay, setdynamicDisplay] = useState('block');
+    const [dynamicDisplay, setdynamicDisplay] = useState('none');
 
     function toogleDisplay() {
         if (dynamicDisplay === 'none') {

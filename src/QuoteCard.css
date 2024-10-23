@@ -32,8 +32,19 @@
     cursor: pointer;
     font-size: 20px;
 }
+
 .quote-card button.new{
     color: white;
     background-color: #078d6e
 }
+.quote-card button.new.disabled{
+    background-color: #ccc;
+    color: #fff;
+    cursor: not-allowed;
+}
 
+.meme-image{
+    max-width: 85%;
+    border-radius: 25px;
+    aspect-ratio: 2/1;
+}
