@@ -1,5 +1,5 @@
 .quote-card{
-    background-color: #fa841d;
+    background-color: #5E86DB;
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
@@ -15,11 +15,12 @@
 .quote-text{
     font-size: 35px;
     line-height: 50px;
-    color: #fff;
+    color: white;
+    font-weight: 500;
 }
 .quote-author{
     font-size: 20px;
-    color: #fff;
+    color:white;
     margin-top: 20px;
 }
 .quote-card button{
@@ -39,7 +40,7 @@
 
 .quote-card button.new{
     color: white;
-    background-color: #078d6e
+    background-color: #1daf87
 }
 .quote-card button.new.disabled{
     background-color: #ccc;

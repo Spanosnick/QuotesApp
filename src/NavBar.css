@@ -10,12 +10,12 @@ nav{
 }
 nav h1{
     margin-left: 20px;
-    color: #375e5e;
+    color: white;
     font-size: 35px;
     font-weight: 700;
 }
 nav h1 span{
-    color: #ff9a5d;
+    color: #5EDBB8;
 }
 .favBtn{
 background-color: white;
