@@ -6,6 +6,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export function FavouriteModal({modalHandler, modalDisplay}) {
     const [favouriteQuotes, setFavouriteQuotes] = useState(null);
+    const [countFavActions, setcountFavActions] = useState(0);
 
     useEffect(() => {
         let storedFavourites = localStorage.getItem('dailyQuotes');
@@ -13,7 +14,7 @@ export function FavouriteModal({modalHandler, modalDisplay}) {
             setFavouriteQuotes(JSON.parse(storedFavourites));
         }
 
-    }, [modalDisplay,removeFromFavorites]);
+    }, [modalDisplay,countFavActions]);
 
 
     return (
@@ -27,6 +28,7 @@ export function FavouriteModal({modalHandler, modalDisplay}) {
                         <p className='author'>{quote.author}</p>
                         <FontAwesomeIcon className='removeBtn' onClick={() => {
                             removeFromFavorites(quote.quote);
+                            setcountFavActions((prevState) => prevState + 1);
                         }} icon={faHeart} size={'xl'}   />
                     </div>)
             })}
