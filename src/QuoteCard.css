@@ -24,13 +24,17 @@
 }
 .quote-card button{
     background-color: #fff;
-    color: #fa841d;
+    color: red;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     margin: 20px;
     cursor: pointer;
     font-size: 20px;
+}
+.quote-card button[hasHeart=true]{
+    color: white;
+    background-color: red;
 }
 
 .quote-card button.new{

@@ -31,3 +31,35 @@
     width: 35px;
     aspect-ratio: 1/1;
 }
+
+.quoteContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #e59451;
+    position: relative;
+}
+.quote{
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 5px;
+}
+.author{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px;
+}
+.removeBtn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    border-radius: 0;
+    color: red;
+    cursor: pointer;
+
+}

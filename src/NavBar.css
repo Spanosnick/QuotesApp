@@ -17,15 +17,17 @@ nav h1{
 nav h1 span{
     color: #ff9a5d;
 }
-nav button{
-background-color: #078d6e;
+.favBtn{
+background-color: white;
     border:none;
-    color: white;
+    color: red;
     font-size: 26px;
     font-weight: 600;
-    padding:  5px 10px;
-    border-radius: 15px;
+    padding:   10px;
+    border-radius: 50%;
     cursor: pointer;
+    width: 25px;
+    aspect-ratio: 1/1;
 }
 
 @media only screen and (max-width: 502px){
